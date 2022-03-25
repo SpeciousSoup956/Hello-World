@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky</title>
+
+   <link rel="stylesheet" href="style.css">
+
+</head> <!--Aqui é a linguagem de marcação HTML-->
+<body>
+   <h1>SKY GAMES</h1>
+   <p>Dá um play!</p>
+
+   <script> //Aqui começa Java Script
+
+     var n1 = Number(window.prompt('Digíte um número: ')) //String convertida para number
+     var n2 = Number(window.prompt('Digíte outro número: ')) //String convertida para number inteiro
+     var s = n1 + n2
+     window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // + Para concatenação -  + para adição
+     // (Number + Number) para adição
+     // (String + String) para concatenação
+
+     /*Conversão de numero para string:
+     String(s) ou (s)toString*/
+
+     /* Formatando Strings:
+     var s = 'JavaScript'
+     'Eu estou aprendendo s' -> Não faz interpolação
+     'Eu estou aprendendo '+s -> Usa concatenação
+     `Eu estou aprendendo ${s}` -> Usa template string */
+
+   </script>
+</body>
+</html>
